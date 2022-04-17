@@ -6,7 +6,6 @@ import { AuthContext } from "./AuthProvider";
 import { useNavigate } from "react-router-dom";
 import { ref, onValue } from "firebase/database";
 import "./index.css";
-import axios from "axios";
 
 function Home() {
   const { currentUser } = useContext(AuthContext);

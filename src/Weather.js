@@ -61,7 +61,7 @@ function Weather() {
             </div>
             <div className="wind">
               {data.wind ? (
-                <p className="bold">{data.wind.speed.toFixed()}</p>
+                <p className="bold">{data.wind.speed.toFixed()} km/h </p>
               ) : null}
               <p>Wind Speed</p>
             </div>

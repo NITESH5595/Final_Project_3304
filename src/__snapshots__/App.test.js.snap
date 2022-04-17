@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing given the required props 1`] = `
+<AuthProvider>
+  <div
+    className="app"
+  >
+    <BrowserRouter>
+      <Routes>
+        <Route
+          element={<Home />}
+          exact={true}
+          path="/"
+        />
+        <Route
+          element={<About />}
+          exact={true}
+          path="/about"
+        />
+        <Route
+          element={<Services />}
+          exact={true}
+          path="/services"
+        />
+        <Route
+          element={<Customers />}
+          exact={true}
+          path="/customers"
+        />
+        <Route
+          element={<Weather />}
+          exact={true}
+          path="/weather"
+        />
+        <Route
+          element={<Login />}
+          exact={true}
+          path="/login"
+        />
+        <Route
+          element={<SignUp />}
+          exact={true}
+          path="/signup"
+        />
+      </Routes>
+    </BrowserRouter>
+  </div>
+</AuthProvider>
+`;
