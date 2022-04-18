@@ -11,12 +11,12 @@ import Customers from "./Customers";
 
 describe("App", () => {
   it("renders without crashing given the required props", () => {
-    const props = {
-      isFetching: false,
-      dispatch: jest.fn(),
-      selectedSubreddit: "reactjs",
-      posts: [],
-    };
+    // const props = {
+    //   isFetching: false,
+    //   dispatch: jest.fn(),
+    //   selectedSubreddit: "reactjs",
+    //   posts: [],
+    // };
 
     const wrapper1 = shallow(<App />);
     const wrapper2 = shallow(<About />);
