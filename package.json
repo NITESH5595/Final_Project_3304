@@ -5,10 +5,14 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
-    "@testing-library/react": "^12.1.4",
+    "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.1",
     "axios": "^0.26.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "firebase": "^9.6.10",
+    "jest": "^27.5.1",
     "moment": "^2.29.2",
     "moment-timezone": "^0.5.34",
     "react": "^18.0.0",
@@ -16,14 +20,15 @@
     "react-moment": "^1.1.2",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
+    "react-test-renderer": "^18.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build", 		
-    "deploy": "firebase build" ,
+    "predeploy": "npm run build",
+    "deploy": "firebase build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -43,6 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme-to-json": "^3.6.2",
+    "jest-watch-typeahead": "^0.6.5"
   }
 }
-

@@ -1,49 +1,96 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App renders without crashing given the required props 1`] = `
-<AuthProvider>
+<div
+  className="app"
+>
+  <Routes>
+    <Route
+      element={<Home />}
+      exact={true}
+      path="/"
+    />
+    <Route
+      element={<About />}
+      exact={true}
+      path="/about"
+    />
+    <Route
+      element={<Services />}
+      exact={true}
+      path="/services"
+    />
+    <Route
+      element={<Customers />}
+      exact={true}
+      path="/customers"
+    />
+    <Route
+      element={<Weather />}
+      exact={true}
+      path="/weather"
+    />
+    <Route
+      element={<Login />}
+      exact={true}
+      path="/login"
+    />
+    <Route
+      element={<SignUp />}
+      exact={true}
+      path="/signup"
+    />
+  </Routes>
+</div>
+`;
+
+exports[`App renders without crashing given the required props 2`] = `
+<div
+  className="mainContainer"
+>
   <div
-    className="app"
+    className="loginForm"
   >
-    <BrowserRouter>
-      <Routes>
-        <Route
-          element={<Home />}
-          exact={true}
-          path="/"
-        />
-        <Route
-          element={<About />}
-          exact={true}
-          path="/about"
-        />
-        <Route
-          element={<Services />}
-          exact={true}
-          path="/services"
-        />
-        <Route
-          element={<Customers />}
-          exact={true}
-          path="/customers"
-        />
-        <Route
-          element={<Weather />}
-          exact={true}
-          path="/weather"
-        />
-        <Route
-          element={<Login />}
-          exact={true}
-          path="/login"
-        />
-        <Route
-          element={<SignUp />}
-          exact={true}
-          path="/signup"
-        />
-      </Routes>
-    </BrowserRouter>
+    <p
+      className="paragraph"
+    >
+      This is the About Us Page 
+    </p>
+    <br />
   </div>
-</AuthProvider>
+</div>
+`;
+
+exports[`App renders without crashing given the required props 3`] = `
+<div
+  className="mainContainer"
+>
+  <div
+    className="loginForm"
+  >
+    <p
+      className="paragraph"
+    >
+      This is our Services Page 
+    </p>
+    <br />
+  </div>
+</div>
+`;
+
+exports[`App renders without crashing given the required props 4`] = `
+<div
+  className="mainContainer"
+>
+  <div
+    className="loginForm"
+  >
+    <p
+      className="paragraph"
+    >
+      This is our customers Page 
+    </p>
+    <br />
+  </div>
+</div>
 `;
