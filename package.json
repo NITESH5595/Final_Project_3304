@@ -1,3 +1,4 @@
+
 {
   "homepage": "https://my-clg-app-b7951.web.app/ ",
   "name": "my-clg-app",
@@ -50,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@cypress/code-coverage": "^3.9.12",
     "enzyme-to-json": "^3.6.2",
     "jest-watch-typeahead": "^0.6.5"
   }

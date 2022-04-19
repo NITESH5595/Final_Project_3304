@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing given the required props 1`] = `
+<div
+  className="weatherApp"
+>
+  <div
+    className="weatherContainer"
+  >
+    <div
+      className="search"
+    >
+      <input
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Enter Location"
+        type="text "
+        value=""
+      />
+    </div>
+    <div
+      className="top"
+    >
+      <div
+        className="location"
+      >
+        <h1 />
+      </div>
+      <div
+        className="temp"
+      />
+      <div
+        className="desc"
+      />
+    </div>
+  </div>
+</div>
+`;

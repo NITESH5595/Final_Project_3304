@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing given the required props 1`] = `
+<div
+  className="mainContainer"
+>
+  <div
+    className="loginForm"
+  >
+    <p
+      className="paragraph"
+    >
+      This is the About Us Page 
+    </p>
+    <br />
+  </div>
+</div>
+`;

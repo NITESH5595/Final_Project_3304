@@ -19,11 +19,6 @@ function Weather() {
     }
   };
 
-  const navigate = useNavigate();
-  const goBack = () => {
-    navigate("/");
-  };
-
   return (
     <div className="weatherApp">
       <div className="weatherContainer">

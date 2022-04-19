@@ -7,18 +7,16 @@ function About() {
   // const goBack = () => {
   //   navigate("/");
   // };
-
   return (
     <div className="mainContainer">
       <div className="loginForm">
         <p className="paragraph">This is the About Us Page </p>
         <br />
         {/* <button className="btn" onClick={() => goBack()}>
-            Go Back
-          </button> */}
+          Go Back
+        </button> */}
       </div>
     </div>
   );
 }
-
 export default About;

@@ -20,9 +20,9 @@ const Login = () => {
     onRegister();
   };
 
-  const goBack = () => {
-    navigate("/");
-  };
+  // const goBack = () => {
+  //   navigate("/");
+  // };
 
   return (
     <div className="mainContainer">
@@ -38,9 +38,9 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
         ></input>
         <button className="btn">Login</button>
-        <button className="btn" onClick={() => goBack()}>
+        {/* <button className="btn" onClick={() => goBack()}>
           Go Back
-        </button>
+        </button> */}
       </form>
     </div>
   );
